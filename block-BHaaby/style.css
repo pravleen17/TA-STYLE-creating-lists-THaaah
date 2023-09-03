@@ -74,3 +74,95 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.navbar {
+    background-color: #f96116;
+    padding: 32px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 32px;
+    color: #ffffff;
+}
+
+.menu-wrapper {
+    padding: 60px 0;
+}
+
+.menu {
+    background-color: #035878;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 32px 0;
+    padding-left: 60px;
+    width: 30%;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol, ul {
+    padding-left: 40px;
+}
+
+.menu li {
+    line-height: 2;
+}
+
+.sub-menu {
+    list-style: square;
+}
+
+.list-style-image {
+    list-style-image: url("tick-small.png");
+}
+
+dl {
+    font-size: 20px;
+}
+
+dt {
+    font-size: 32px;
+}
+
+dd {
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #272e30;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer a {
+    color: #ffffff;
+    margin-right: 32px;
+    font-size: 24px;
+    text-decoration: none;
+}
